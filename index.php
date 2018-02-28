@@ -2,8 +2,8 @@
     <html>
         <head>
         <meta charset='utf-8'>
-        <title>ДЗ1</title></head>;
-        <body>;
+        <title>ДЗ1</title></head>
+        <body>
             <?php
             echo"Задание 1".'<br>';
             $name='Светлана';
@@ -89,5 +89,5 @@
             $str1=implode("+",$str1);
             echo $str1;
 	    ?>
-         </body>;
-    </html>;
+         </body>
+    </html>
