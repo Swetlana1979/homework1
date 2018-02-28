@@ -73,8 +73,8 @@
             }
 
             echo 'Задание 7.<br>';
-            echo '<table border="1">';
-            for($i=1;$i<11;$i++){
+            echo '<table border = "1">';
+            for($i = 1;$i < 11;$i ++ ){
                 echo '<tr>';
                 for($n=1;$n<11;$n++){
                     echo '<td>'.$i.' * '.$n.' = '.$i*$n.'</td>';
