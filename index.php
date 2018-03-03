@@ -45,18 +45,28 @@
 
             echo 'Задание 5.<br>';
             $dey = mt_rand(0,10);
-			if(($dey >= 1)&&($dey <= 5)){
-				$dey = 'wd';
-			} elseif(($dey == 6)||($dey == 7)){
-				$dey = 'od';
-			} else {$dey ='false';
-			}
+			
             switch ($dey){
-                case 'wd':
+                case 1:
 				    echo 'Это будний день'.'<br>'.'<br>';
                     break;
-                case 'od':
+                case 2:
+                    echo 'Это будний день'.'<br>'.'<br>';
+                    break;
+                case 3:
+                    echo 'Это будний день'.'<br>'.'<br>';
+                    break;
+                case 4:
+                    echo 'Это будний день'.'<br>'.'<br>';
+                    break;
+                case 5:
+                    echo 'Это будний день'.'<br>'.'<br>';
+                    break;
+                case 6:
 				    echo 'Это выходной день'.'<br>'.'<br>';
+                    break;
+                case 7:
+                    echo 'Это выходной день'.'<br>'.'<br>';
                     break;
                 default: 
 				    echo 'Неизвестный день'.'<br>'.'<br>';
